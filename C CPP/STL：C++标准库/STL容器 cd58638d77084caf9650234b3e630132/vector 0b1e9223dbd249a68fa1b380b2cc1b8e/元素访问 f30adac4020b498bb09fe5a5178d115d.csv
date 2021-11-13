@@ -1,0 +1,5 @@
+﻿操作,效果
+c[idx],返回索引idx所指的元素
+c.at(idx),同上（检查范围，超出范围则抛出range-error异常）
+c.front ( ),返回第一元素
+c.back ( ),返回最后元素

@@ -1,0 +1,10 @@
+﻿操作,效果
+"c.begin()
+",返回一个random—access iterator指向第一元素
+c.end(),返回一个random—access iterator指向最末元素的下一位置
+c.cbegin(),返回一个const random—access iterator指向第一元素（始自C++11）
+c.cend(),返回一个const random—access iterator指向最末元素的下一位置（始自C++11）
+c.rbegin(),返回一个反向的（reverse） iterator指向反向选代的第一元素
+c.rend(),返回一个反向的（reverse） iterator指向反向迭代的最末元素的下一位置
+c.crbegin(),返回一个const reverse iterator指向反向迭代的第一元素（始自C++11）
+c.crend(),返回一个const reverse iterator指向反向迭代的最末元素的下一位置（始自C++11）

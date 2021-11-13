@@ -1,0 +1,4 @@
+﻿\,可分享,不可分享
+可变,/usr /opt,/etc /boot
+不可变,/var/mail /var/spool/news,/var/run /var/lock
+,,

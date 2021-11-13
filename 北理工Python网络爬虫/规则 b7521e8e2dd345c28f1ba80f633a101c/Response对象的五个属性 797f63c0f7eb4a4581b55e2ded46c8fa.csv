@@ -1,0 +1,6 @@
+﻿属性,说明
+status_code,请求的返回状态，200为成功
+text,相应内容的字符串形式，url对应的页面内容
+encoding,header中猜测的相应编码方式
+apparent_encoding,从内容中分析出的响应内容编码方式
+content,相应内容的二进制形式

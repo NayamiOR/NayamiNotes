@@ -1,0 +1,8 @@
+﻿异常,说明
+ConnectionError,网络连接错误异常
+HTTPError,HTTP错误异常
+URLRequired,URL缺失异常
+TooManyRedirects,超过最大重定向次数产生重定向异常
+ConnectTimeout,连接远程服务器超时异常
+Timeout,请求URL超时产生超时异常
+raise_for_status(),如果不是200，产生HTTPError
