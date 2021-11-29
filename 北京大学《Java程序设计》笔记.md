@@ -547,7 +547,7 @@ Exception分两种
 
 - 要么捕
 - 要么抛：在方法的前面后用throws xxx来声明
-    
+  
     在子类中，如果要覆盖父类的一个方法，若父类的方法声明了throws异常，则子类的方法也可以throws异常
     
     可以抛出子类异常（更具体的异常），但不能抛出更一般的异常
@@ -579,7 +579,7 @@ try(类型 变量名 = new 类型()){
 1. 将当前捕获的异常再次抛出
 2. 重新生成一个异常并抛出
 3. 重新生成一个新异常并抛出，包含当前异常的信息
-    
+   
     ```java
     throw new Exception("some message", e);
     ```
@@ -695,17 +695,17 @@ System.out.println();
 
 1. 都提供了一些常数
 2. 提供了valveOf(String)，toString()
-    
+   
     用于从字符串转换或转换成字符串
     
 3. 通过xxxValue()方法可以得到所包装的值
-    
+   
     如Integer对象的intValue()方法
     
 4. 对象中包装的值是不可改变的，要改变只能生成新的对象
 5. toString()，equals()等方法进行了覆盖
 6. 有些类还提供了一些实用的方法以方便操作
-    
+   
     如Double类提供了parseDouble()，max，min方法等
     
 
@@ -901,3 +901,68 @@ Map类的重要实现
     - 如Arrays类及Collections类
 
 ### Arrays类
+
+# 多线程
+
+## 创建
+
+### 线程体
+
+通过run()方法实现，线程启动后自动调用run()方法，通常执行一个时间较长的操作
+
+```java
+//1.通过继承Thread类创建
+class MyThread extends Thread{
+    public void run(){
+        for(int i=0;i<100;i++){
+            System.out.print(" "+i);
+        }
+    }
+}
+//2.通过Thread()构造方法传递Runnable对象创建
+class MyTask implements Runnable{
+    public void run(){...}
+}
+Thread thread = new Thread(mytask);
+thread.start();
+```
+
+## 控制
+
+![线程的状态与生命周期_1](D:\Github笔记\图床\线程的状态与生命周期_1.png)
+
+### 对线程的基本控制
+
+- 启动
+  - start
+- 结束
+  - 设定一个标记变量，以及结束相应的循环、方法
+- 暂时阻止线程的执行
+  - ` try{Thread.sleep(1000);}catch(InterruptedException e){}`
+
+设定线程的优先级
+
+- `setPriority(int priority)方法`
+  - MIN_PRIORITY
+  - MAX_PRIORITY
+  - NORM_PRIORITY
+
+### 后台线程
+
+线程有两种
+
+- 一类是普通线程
+  - 程序中如果还有普通线程则整个程序就不会结束
+- 一类是Daemon线程（守护线程，后台线程）
+  - 普通线程结束了后台线程自动停止
+  - 垃圾回收线程是后台线程
+
+使用`setDaemon(true);`
+
+# 流、文件及基于文本的应用
+
+## 输入输出流
+
+把不同类型的输入输出称为流，按流的方向分为输入和输出流
+
+通过java.io包实现，从java4加入ava.nio包，jdk1.7做了改进称为nio2

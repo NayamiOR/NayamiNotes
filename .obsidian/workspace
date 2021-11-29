@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "0e81f919323a28bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fbec9409def410c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "PAT刷题记录笔记草稿/BasicLevel1003.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76d74d5bfdbd4fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "96480c298a3df03e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f54816dff9330dff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f6d038ee542eeb64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eaac260ebb6b9c56",
+    "type": "split",
+    "children": [
+      {
+        "id": "0be588c6677b67e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca298b283ac99327",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PAT刷题记录笔记草稿/BasicLevel1003.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2fbec9409def410c",
+  "lastOpenFiles": [
+    "PAT刷题记录笔记草稿/BasicLevel1003.md",
+    "北京大学《Python语言基础与应用》笔记.md",
+    "北京大学《Java程序设计》笔记.md",
+    "北理工Python网络爬虫.md"
+  ]
+}
