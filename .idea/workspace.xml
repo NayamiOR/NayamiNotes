@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c1dad23-eefe-4d11-8156-310e941b5aa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/北京大学《Java程序设计》笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/北京大学《Java程序设计》笔记.md" afterDir="false" />
-    </list>
+    <list default="true" id="15eb54ea-6504-44e6-956e-17eac1e90814" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21ae9gfr1c5ieFTw84OVxLRjxwY" />
+  <component name="ProjectId" id="21ae5PlcSegT1feadHan8fjOZ58" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,20 +19,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6c1dad23-eefe-4d11-8156-310e941b5aa8" name="Default Changelist" comment="" />
-      <created>1638183497757</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1638183497757</updated>
-      <workItem from="1638183505641" duration="64000" />
-    </task>
-    <servers />
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
